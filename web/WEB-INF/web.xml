@@ -1,0 +1,11 @@
+<web-app>
+    <!--mapeo del servlet login-->
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>Servlets.Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+</web-app>
